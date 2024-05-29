@@ -70,7 +70,8 @@
     "format": "prettier --write 'src/**/*.{ts,tsx}'",
     "format:check": "prettier --check 'src/**/*.{ts,tsx}'",
     "precommit": "lint-staged",
-    "prepublish": "yarn run build"
+    "prepublish": "yarn run build",
+    "start": "yarn start"
   },
   "repository": {
     "type": "git",
